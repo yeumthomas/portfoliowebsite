@@ -1,0 +1,200 @@
+/* for entire App */
+.App {
+  text-align: center;
+}
+
+/* navbar information*/
+.nav {
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 1.2rem;
+  color: rgb(41, 40, 40);
+  font-size: 12px;
+  align-items: center;
+  font-family: 'monaco';
+}
+
+.nav-item:hover {
+  color: rgb(56, 133, 158);
+  cursor: pointer;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid rgb(56, 133, 158);
+  color: rgb(56, 133, 158);
+}
+
+
+
+/* Section One: Main */
+.main-section {
+  height: 100vh; /*fits size of computer screen*/
+  background-color: white;
+  display: inline-block;
+  padding-top: 18vh;
+}
+
+.greeting-div {
+  line-height: 0;
+}
+.greeting {
+  color: rgb(56, 133, 158);
+  font-family: 'monaco';
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 2.2rem;
+  line-height: 20px;
+}
+
+.name {
+font-family: 'avantgarde';
+font-size: 96px;
+margin: 0;
+padding: 0;
+padding-left: 2rem;
+color: rgb(41, 40, 40);
+}
+
+.introduction {
+font-size: 12px;
+text-align: left;
+padding-left: 2.2rem;
+padding-top: 4rem;
+font-family: 'monaco';
+color:  rgb(75, 75, 75);
+}
+
+.bar {
+  padding: 2rem;
+}
+
+.the_bar {
+  color: rgb(56, 133, 158);
+  padding-left: 2%;
+  margin-left: 5%;
+}
+
+.social_container {
+  padding: 2rem;
+}
+
+.social-logo {
+  display: inline;
+  margin-right: 1.4rem;
+  margin-left: 1.4rem;
+  color: rgb(40, 40, 40);
+  align-items: center;
+  display: inline-block;
+  transition: transform 250ms;
+}
+
+.social-logo:hover {
+  transform: translateY(-3px);
+  color:  rgb(56, 133, 158);
+  cursor: pointer;
+}
+/* Section Two: About */
+.about-section {
+  height: 100vh;
+  background-color: white;
+}
+
+.about-title {
+  font-family: 'Courier New';
+  font-size: 30px;
+  margin: 0;
+  padding-top: 7%;
+  margin-right: 30%;
+  color: rgb(41, 40, 40);
+  text-align: right;
+}
+
+.about-halfhalf {
+  margin-left: 24%;
+  margin-right: 20%;
+  margin-top: 2%;
+
+}
+
+
+.about-picture {
+  /* original 1524 x 2048 */
+  width: 20rem;
+  height: 26rem;
+  padding-left: 10 rem;
+  padding-right: 10 rem;
+  float: left;
+}
+
+.about-bio {
+  width: 55%;
+  padding-top: 2%;
+  height: 5%;
+  float: right;
+  text-align: left;
+}
+
+.bio-header {
+  font-family: 'monaco';
+  font-size: 18px;
+  color: black;
+  padding: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.bio-body {
+  padding: 0;
+  margin-top: 0;
+  font-family: 'monaco';
+  font-size: 15px;
+  color: rgb(75, 75, 75);
+  text-align: left;
+}
+
+.school-link {
+  color: rgb(56, 133, 158);
+  text-decoration: none;
+}
+.school-link:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(56, 133, 158);
+}
+
+/* Section Three: Experience */
+.experience-section {
+  height: 100vh;
+  background-color: white;
+}
+
+
+
+
+
+/* Section Four: Contact */
+.contact-section {
+  height: 100vh;
+  background-color: white;
+}
