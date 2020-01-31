@@ -8,7 +8,7 @@ class About extends Component {
         <div className="about-section" id="about">
             <h1 className="about-title">▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  1. About Me</h1>
                 <div className="about-halfhalf">
-                    <div className="about-picture">
+                    <div className="about-pictureframe">
                         <img className="about-picture" src="propic.jpg" alt="My Profile Picture"></img>
                     </div>
                     <div className="about-bio">
