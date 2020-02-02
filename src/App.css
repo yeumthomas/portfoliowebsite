@@ -29,7 +29,8 @@
   color: rgb(41, 40, 40);
   font-size: 12px;
   align-items: center;
-  font-family: 'monaco';
+  font-family: 'courier new';
+  font-weight: bold;
 }
 
 .nav-item:hover {
@@ -57,7 +58,8 @@
 }
 .greeting {
   color: rgb(56, 133, 158);
-  font-family: 'monaco';
+  font-family: 'courier new';
+  font-weight: bold;
   font-size: 12px;
   text-align: left;
   margin: 0;
@@ -68,7 +70,7 @@
 
 .name {
 font-family: 'avantgarde';
-font-size: 96px;
+font-size: 700%;
 margin: 0;
 padding: 0;
 color: rgb(41, 40, 40);
@@ -79,7 +81,8 @@ font-size: 12px;
 text-align: left;
 padding-top: 8%;
 padding-left: 1%;
-font-family: 'monaco';
+font-family: 'courier new';
+font-weight: bold;
 color:  rgb(75, 75, 75);
 }
 
@@ -160,22 +163,12 @@ color:  rgb(75, 75, 75);
   align-items: left;
   text-align: left;
   margin-right: 25%;
-
-}
-
-.bio-header {
-  font-family: 'monaco';
-  font-size: 18px;
-  color: black;
+  margin-top: 4%;
   margin-bottom: 0%;
-  padding-top: 8%;
-  text-align: left;
-  font-weight: bolder;
 }
 
 .bio-body {
-  margin-bottom: 0%;
-  font-family: 'monaco';
+  font-family: 'arial';
   font-size: 15px;
   color: rgb(75, 75, 75);
   text-align: left;
@@ -193,15 +186,173 @@ color:  rgb(75, 75, 75);
 /* Section Three: Experience */
 .experience-section {
   height: 100vh;
+  width: 100%;
   background-color: white;
+  align-items: center;
+  text-align: center;
 }
 
+.experience-title {
+  font-family: 'Courier New';
+  font-size: 30px;
+  margin: 0;
+  padding-top: 7%;
+  color: rgb(41, 40, 40);
+  text-align: center;
+}
 
+.experience12 {
+  height: 30%;
+  width: 60%;
+  margin-top: 1%;
+  display: inline-block;
+}
 
+/* Datathon Project */
+.experience1-left {
+  float: left;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
 
+.experience1-title {
+  font-size: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.experience1-titleleft {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.experience1-titleright {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.experience1-title-pt1 {
+  font-family: 'Courier New';
+  font-size: 150%;
+  color: rgb(56, 133, 158);
+}
+
+.experience1-title-pt2 {
+  font-family: 'Arial';
+  font-size: 150%;
+  color: rgb(40, 40, 40);
+}
+
+.experience1-subtitle {
+  margin-top: -5%;
+  padding: 0;
+  font-size: 90%;
+  color: rgb(95, 95, 95);
+}
+
+.experience1-textbox {
+  height: 50%;
+  width: 100%;
+  align-items: center;
+  margin-top: -4%;
+}
+
+.experience1-text {
+  padding-left: 3%;
+  margin-left: 3%;
+  padding-bottom: 2%;
+  margin-right: 10%;
+  font-family: 'Arial';
+  font-size: 85%;
+  text-align: left;
+  color: rgb(60, 135, 160);
+}
+
+.exp1-holder {
+  padding-top: 10%;
+  height: 100%;
+  width: auto;
+}
+.experience1-pic {
+  filter: grayscale(80%) brightness(65%) drop-shadow(2px 2px 2.5px  rgb(95, 95, 95)); 
+  -webkit-filter: grayscale(80%) brightness(65%) drop-shadow(2px 2px 2.5px  rgb(95, 95, 95)); 
+  transition: filter 500ms -webkit-filter 250ms;
+  height: 100%;
+  width: auto;
+  transition: transform 250ms;
+}
+
+.experience1-pic:hover {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 2.5px  rgb(95, 95, 95)) brightness(90%);
+  -webkit-filter: drop-shadow(2px 2px 2.5px  rgb(95, 95, 95)) brightness(90%);
+  transform: translateY(-3px);
+}
+
+.technologies-holder {
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: -2%;
+  padding-right: -2%;
+}
+.technologies {
+  font-family: 'courier new';
+  color: black;
+  font-size: 80%;
+  text-justify: inter-word;
+}
+
+/* Google Externship */
+.experience2-right {
+    height: 50%;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.experience2-titleleft {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.experience2-titleright {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.experience2-title-pt1 {
+  font-family: 'Courier New';
+  font-size: 150%;
+  color: rgb(56, 133, 158);
+}
+
+.experience2-title-pt2 {
+  font-family: 'Arial';
+  font-size: 150%;
+  color: rgb(40, 40, 40);
+}
+
+.experience2-subtitle {
+  margin-top: -5%;
+  padding: 0;
+  font-size: 90%;
+  color: rgb(95, 95, 95);
+}
+
+.technologies-holder-google {
+padding-top: 12.5%;
+}
 
 /* Section Four: Contact */       
 .contact-section {
   height: 100vh;
   background-color: white;
 }
+
