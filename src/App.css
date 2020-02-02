@@ -202,7 +202,7 @@ color:  rgb(75, 75, 75);
 }
 
 .experience12 {
-  height: 30%;
+  height: 70%;
   width: 60%;
   margin-top: 1%;
   display: inline-block;
@@ -273,8 +273,8 @@ color:  rgb(75, 75, 75);
 }
 
 .exp1-holder {
-  padding-top: 10%;
-  height: 100%;
+  padding-top: 2%;
+  height: 40%;
   width: auto;
 }
 .experience1-pic {
@@ -347,7 +347,7 @@ color:  rgb(75, 75, 75);
 }
 
 .technologies-holder-google {
-padding-top: 12.5%;
+padding-top: 18.2%;
 }
 
 /* Section Four: Contact */       
