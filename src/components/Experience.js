@@ -35,7 +35,7 @@ class Experience extends Component {
                         <li className="experience1-text">Introduced to React.JS framework and jumpstarted my track into web development.</li>
                         <li className="experience1-text">Gained an eye towards what Google sees in its employees, giving me another perspective at the what skills matter.</li>
                     </ul>
-                    <div className="technologies-holder-google"><p className="technologies">React, HTML, CSS, JS</p></div>
+                    <div className="technologies-holder-google"><p className="technologies">React HTML CSS JS</p></div>
                     </div>
                 </div>
             </div>
