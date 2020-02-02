@@ -16,10 +16,10 @@ class Experience extends Component {
                     <h6 className="experience1-subtitle">2nd Place Overall Winner @ Rice Datathon, Jan 2020</h6>
                     <ul className="experience1-textbox">
                         <li className="experience1-text">Analyzed existing data on food deserts in Houston to predict the density at which food deserts would exist in other sections of the surrounding Houston area.</li>
-                        <li className="experience1-text">Programmed a website to organize data and aid in user visualzation of data.</li>
+                        <li className="experience1-text">Programmed a website to organize data and aid in user visualization of data.</li>
                     </ul>
                     <div className="exp1-holder">
-                    <a target="_blank" className="experience1-piclink" href="https://www.houstondeserted.netlify.com"><img className="experience1-pic" src="houstondeserted.png" alt="Houston Deserted" /></a>
+                    <a target="_blank" className="experience1-piclink" href="https://houstondeserted.netlify.com/"><img className="experience1-pic" src="houstondeserted.png" alt="Houston Deserted" /></a>
                     </div>
                     <div className="technologies-holder"><p className="technologies">Python Jupyter Excel KML HTML CSS</p></div>
                 </div>
