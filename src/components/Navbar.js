@@ -34,7 +34,7 @@ class Navbar extends Component {
                             offset={0}
                             duration= {500}>Experience</Link>
                         </li>   
-                        <li className="nav-item">
+                        {/*<li className="nav-item">
                             <Link
                             activeClass="active"
                             to="contact"
@@ -42,7 +42,7 @@ class Navbar extends Component {
                             smooth={true}
                             offset={0}
                             duration= {500}>Contact</Link>
-                        </li>   
+                        </li>   */}
                     </ul>   
                 </div>
             </nav>
