@@ -18,7 +18,6 @@ class App extends Component {
         <About />
         <Experience />
       {/* <Contact /> */}
-        <div className="footer"><p className="footer-text">© Thomas Yeum 2020</p></div>
       </div>
     );
 

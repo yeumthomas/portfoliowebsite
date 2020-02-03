@@ -39,6 +39,7 @@ class Experience extends Component {
                     </div>
                 </div>
             </div>
+            <div className="footer"><p className="footer-text">© Thomas Yeum 2020</p></div>
         </div>);
     }
 }
