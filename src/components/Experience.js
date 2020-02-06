@@ -33,7 +33,7 @@ class Experience extends Component {
                     <ul className="experience1-textbox">
                         <li className="experience1-text">Conducted informational interviews with Stadia and Google Assistant UX designers, back-end SWE, and Google Maps and Google Nest developers to understand behind-the-scenes work.</li>
                         <li className="experience1-text">Introduced to React.JS framework and jumpstarted my track into web development.</li>
-                        <li className="experience1-text">Gained an eye towards what Google sees in its employees, giving me another perspective at the what skills matter.</li>
+                        <li className="experience1-text">Gained an eye towards what Google sees in its employees, giving me another perspective at what skills matter.</li>
                     </ul>
                     <div className="technologies-holder-google"><p className="technologies">React HTML CSS JS</p></div>
                     </div>
