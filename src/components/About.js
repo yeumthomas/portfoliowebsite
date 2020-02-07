@@ -16,7 +16,7 @@ class About extends Component {
                             with an interest in many applications but mostly in web development. I came to love building 
                             websites after discovering its connection to another passion of mine: 
                             composing classical music. Through these thematic connections and the help of some very special 
-                            people, I have embarked on my journey towards my dream of becoming a full-fledged front-end software engineer. 
+                            people, I have embarked on my journey towards my dream of becoming a full-fledged software engineer. 
                             <br/><br/>All in all, this is what I love and I couldn't be happier.</p1>
                     </div>
                 </div>
