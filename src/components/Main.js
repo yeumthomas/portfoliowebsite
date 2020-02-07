@@ -17,8 +17,8 @@ class Main extends Component {
                 </div>
                 <div className="introduction">
                     <p1>I am a computer science major at Rice University<br/></p1>
-                    <p1>working towards becoming a software engineer<br/></p1>
-                    <p1>with a specialization in web development and data analytics.</p1>
+                    <p1>working towards becoming a software engineer with a<br/></p1>
+                    <p1>specialization in web development and data analytics.</p1>
                 </div>
                 <div className="bar">
                     <p1 className="the_bar">_________________________________________________</p1>
